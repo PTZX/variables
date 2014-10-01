@@ -5,11 +5,13 @@ else:
     print("You are not old enough to vote")
 
 if age >=65:
-print("You are also old enough to retire.")
+    print("You are also old enough to retire.")
 else: print("You are not old enough to retire.")
 
-elif age >=17:
+if age >=17:
     print("Receive driving lessons")
 
-elif age >=16:
-    print("As you are 16 or older you can also do the following: - Work, Buy Lottery tickets, Have sexual relations with other people aged over 16 and drink if an adult buys it w. a meal.")
+if age >=16:
+    print("As you are 16 or older you can also do the following: Work, Buy Lottery tickets, Have sexual relations with other people aged 16 or older and drink if an adult buys it with a meal.")
+
+print("Thank You So Much for using my (Paul Njenje's) Program")

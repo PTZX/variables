@@ -2,11 +2,8 @@ print("Give me an amount of money in whole ponds and I will tell you how many no
 
 cash = int(input("Enter an amount of money in whole ponuds: £"))
 
-fifty  = cash // 50
-remainder = cash % 50
-
-twenty = remainder // 20
-remainder = remainder % 20
+twenty = cash // 20
+remainder = cash % 20
 
 ten = remainder // 10
 remainder = remainder % 10
@@ -19,4 +16,4 @@ remainder = remainder % 2
 
 one = remainder
 
-print("x{5} £50 notes |x{0} £20 note(s)|x{1} £10 note(s)|x{2} £5 note(s)|x{3} £2 coin(s)|x{4} £1 coin(s)".format(twenty, ten, five, two, one, fifty))
+print("|x{0} £20 note(s)|x{1} £10 note(s)|x{2} £5 note(s)|x{3} £2 coin(s)|x{4} £1 coin(s)".format(twenty, ten, five, two, one))
